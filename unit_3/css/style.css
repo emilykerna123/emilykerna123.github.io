@@ -1,7 +1,121 @@
-h1,p {
-	color:#000000;
+body {
+	margin: 20px 20px 20px 30px;
+  	background: url(../images/profitbot.jpg);
+	background-size: cover;
 }
 
-body {
-	background: url(C:\Users\emily\OneDrive\Desktop\Repo\emilykerna123.github.io\unit_3\images\profitbotlogo.jpg);
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+	float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 10px 5px;
+    text-transform: uppercase;
+    font-family: roboto, arial;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: white;
+    opacity: 0.5;
+}
+
+li a:active {
+	color: black;
+}
+
+h1 {
+	color: white;
+	text-transform: uppercase;
+	font-family: "Courier New", monospace;
+	font-size: 72px;
+}
+
+h2 {
+	color:white;
+	padding: 16px;
+	font-family: "Courier New", monospace;
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+h3.top {
+	color: #00AEEF;
+	padding: 210px 0px 0px 0px;
+	font-family: "Courier New", monospace;
+	font-size: 30px;
+}
+
+h3.bottom {
+	color: #00AEEF;
+	padding: 75px 0px 0px 0px;
+	font-family: "Courier New", monospace;
+	font-size: 30px;
+}
+
+p {
+	color: black;
+	padding: 0px 500px 0px 0px;
+	font-family: roboto, arial;
+	font-size: 15px;
+	font-weight: lighter;
+	line-height: 18px;
+}
+
+footer {
+	color: white;
+	background-color: #00AEEF;
+	font-family: roboto, arial;
+	font-size: 12px;
+	padding: 100px 0px 100px 0px;
+
+}
+
+#back2Top {
+	color: #00AEEF;
+	font-family: "Courier New", monospace;
+	text-decoration: underline;
+	font-weight: 800;
+}
+
+#back2Toplast {
+	padding:100px 500px 5px 0px;
+
+}
+
+#back2Topfirst {
+	padding:5px 500px 5px 0px;
+
+}
+
+img {
+	float: right;
+    padding: 400px 125px 5px 200px;
+    background-size: fixed;
+    background-repeat: no-repeat;
+}
+
+button {
+	background-color: white;
+	color: #00AEEF;
+	font-family: "roboto", arial;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 8px;
+	border: none;
+	margin: 16px;
+	font-weight: 800;
+}
+
+.space {
+	padding: 125px 0px 0px 0px;
 }
