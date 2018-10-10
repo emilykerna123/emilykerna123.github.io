@@ -134,13 +134,13 @@ button {
 	font-size: 10px;
 	padding: 11px;
 	border: none;
-	font-weight: 800;
+	font-weight: 700;
 	float: left;
 	border-radius: 3px;
 }
 
 .tripleimage {
-	margin: 600px 290px 100px 225px;
+	margin: 500px 290px 100px 225px;
 }
 
 .insidetext {
@@ -148,8 +148,9 @@ button {
 }
 
 .money {
-	width: 1400px;
+	width: 1000px;
 	height: auto;
 	padding-bottom: 80px;
+	float: center;
 }
 
