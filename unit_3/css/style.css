@@ -9,8 +9,11 @@
 
 body {
 	margin: 20px 40px 20px 40px;
-	background-size: cover;
 	text-align: center;
+	background: url(../images/background.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+
 }
 
 ul {
@@ -133,12 +136,20 @@ button {
 	border: none;
 	font-weight: 800;
 	float: left;
+	border-radius: 3px;
 }
 
 .tripleimage {
-	margin: 450px 290px 100px 225px;
+	margin: 600px 290px 100px 225px;
 }
 
 .insidetext {
-	padding: 0px 0px 100px 0px;
+	padding: 0px 60px 100px 60px;
+}
+
+.money {
+	width: 1400px;
+	height: auto;
+	padding-bottom: 80px;
+}
 
