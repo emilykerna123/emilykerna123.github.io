@@ -1,7 +1,19 @@
+* {
+	padding:0;
+	margin: 0;
+}
+
+.homecontainer {
+	margin: 200px 0px 0px 0px;
+}
+
 body {
-	margin: 20px 20px 20px 30px;
-  	background: url(../images/profitbot.jpg);
-	background-size: cover;
+	margin: 20px 40px 20px 40px;
+	text-align: center;
+	background: url(../images/background.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+
 }
 
 ul {
@@ -20,7 +32,7 @@ li a {
     text-transform: uppercase;
     font-family: roboto, arial;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 9px;
     font-weight: bold;
 }
 
@@ -38,37 +50,34 @@ h1 {
 	text-transform: uppercase;
 	font-family: "Courier New", monospace;
 	font-size: 72px;
+	text-align: left;
 }
 
 h2 {
 	color:white;
-	padding: 16px;
 	font-family: "Courier New", monospace;
 	font-size: 25px;
 	font-weight: lighter;
+	text-align: left;
+	margin-bottom: 20px;
 }
 
-h3.top {
+h3 {
 	color: #00AEEF;
-	padding: 210px 0px 0px 0px;
 	font-family: "Courier New", monospace;
-	font-size: 30px;
-}
-
-h3.bottom {
-	color: #00AEEF;
-	padding: 75px 0px 0px 0px;
-	font-family: "Courier New", monospace;
-	font-size: 30px;
+	font-size: 24px;
+	font-weight: light;
 }
 
 p {
 	color: black;
-	padding: 0px 500px 0px 0px;
 	font-family: roboto, arial;
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: lighter;
-	line-height: 18px;
+	margin-right: 80px;
+	margin-left: 80px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 footer {
@@ -80,28 +89,41 @@ footer {
 
 }
 
-#back2Top {
+.back2top {
 	color: #00AEEF;
-	font-family: "Courier New", monospace;
-	text-decoration: underline;
-	font-weight: 800;
+	font-family: "roboto", arial;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 9px;
+	font-weight: 800px;
+	padding-top: 100px;
+	padding-bottom: 200px;
 }
 
-#back2Toplast {
-	padding:100px 500px 5px 0px;
 
-}
-
-#back2Topfirst {
-	padding:5px 500px 5px 0px;
-
-}
-
-img {
-	float: right;
-    padding: 400px 125px 5px 200px;
+#chart {
     background-size: fixed;
     background-repeat: no-repeat;
+    float: left;
+    width: 135px;
+    height: auto;
+}
+
+#bar {
+    background-size: fixed;
+    background-repeat: no-repeat;
+    float: center;
+    width: 142px;
+    height: auto;
+}
+
+#time {
+    background-size: fixed;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: auto;
+    float: right;
 }
 
 button {
@@ -109,13 +131,25 @@ button {
 	color: #00AEEF;
 	font-family: "roboto", arial;
 	text-transform: uppercase;
-	font-size: 13px;
-	padding: 8px;
+	font-size: 10px;
+	padding: 11px;
 	border: none;
-	margin: 16px;
 	font-weight: 800;
+	float: left;
+	border-radius: 3px;
 }
 
-.space {
-	padding: 125px 0px 0px 0px;
+.tripleimage {
+	margin: 600px 290px 100px 225px;
 }
+
+.insidetext {
+	padding: 0px 60px 100px 60px;
+}
+
+.money {
+	width: 1400px;
+	height: auto;
+	padding-bottom: 80px;
+}
+
