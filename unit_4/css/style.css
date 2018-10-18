@@ -14,30 +14,30 @@ body {
 }
 
 ul {
-    list-style-type: none;
-    overflow: hidden;
+	list-style-type: none;
+	overflow: hidden;
 }
 
 li a {
 	float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 5px 10px 5px;
-    text-transform: uppercase;
-	font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    font-size: 9.5px;
-    font-weight: 500;
+    	display: block;
+    	color: white;
+    	text-align: center;
+    	padding: 5px 10px 5px;
+    	text-transform: uppercase;
+    	font-family: 'Roboto', sans-serif;
+    	text-decoration: none;
+    	font-size: 9.5px;
+    	font-weight: 500;
 }
 
 li a:hover {
-    color: white;
-    opacity: 0.5;
+    	color: white;
+    	opacity: 0.5;
 }
 
 li a:active {
-	color: black;
+  	 color: black;
 }
 
 h1 {
@@ -115,7 +115,7 @@ footer {
 }
 
 .space {
-	margin: 600px 290px 100px 225px;
+	margin: 600px 290px 50px 225px;
 }
 
 .insidetext {
