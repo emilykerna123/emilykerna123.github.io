@@ -6,14 +6,16 @@
 }
 
 body {
-	background-image: url(../images/background.jpg);
-	background-repeat: no-repeat;
-	background-size: contain;
+	font-family: Roboto, sans-serif;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
 }
 
 nav {
 	display: block;
 	padding: 30px 0 0 0;
+	background-color: #00AEEF;
 }
 
 ul {
@@ -25,7 +27,7 @@ li a {
 	float: left;
     color: #fff;
     text-align: center;
-    padding: 5px 10px 5px 0;
+    padding: 5px 20px 5px 0;
     text-transform: uppercase;
 	font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -44,12 +46,17 @@ li a:active {
 
 header {
 	padding: 0 0 0 40px;
-	height: 650px;
+	background-color: #00AEEF;
+	display: block;
+  	height: auto;
+  	object-position: inherit;
 }
 
 main {
-	max-height: 2200px;
-}
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+ }
 
 span {
 	font-weight: lighter;
@@ -63,12 +70,13 @@ h1 {
 	font-weight: bold;
 	padding: 180px 0 0 0;
 	border: none;
+	object-position: inherit;
 }
 
 h2 {
 	color:#fff;
 	font-family: 'Cutive Mono', monospace;
-	font-size: 25px;
+	font-size: 36px;
 	font-weight: lighter;
 	padding: 0 0 15px 0;
 }
@@ -88,7 +96,7 @@ button {
 h3 {
 	color: #00AEEF;
 	font-family: 'Cutive Mono', monospace;
-	font-size: 27px;
+	font-size: 30px;
 	font-weight: light;
 	padding: 15px 0 15px 0;
 }
@@ -102,10 +110,10 @@ article {
 p {
 	color: black;
 	font-family: 'Roboto', sans-serif;
-	font-size: 13px;
-	line-height: 1.65em;
+	font-size: 16px;
+	line-height: 1.75em;
 	padding: 0 0 15px 0;
-	font-weight: 400em;
+	font-weight: 100em;
 }
 
 aside {
@@ -114,9 +122,9 @@ aside {
 }
 
 img {
-	width: 40%;
-	display: block;
-	padding-top: 35px;
+	width: 100%;  	
+	margin: 0 auto;
+	background-size: cover;
 }
 
 footer {
@@ -125,41 +133,49 @@ footer {
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
 	text-align: center;
-	padding: 100px 0 0 0;
 	display: block;
-	height: 100px;
-	margin-top: 150px 0 0 0 ;
-}
+	padding: 100px 0 0 0;
+  	height: 20vh;}
 
 .wrapper {
-	width: 95%;
-	margin: 0 auto;
+ 	display: block;
+  	width: 100%;
+  	height: auto;
+}
+
+.first1 {
+	background-image: url(../images/background.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
 	display: block;
+  	height: 90vh;
 }
 
 .section1 {
-	height: 200px;
-	padding: 20px;
+	padding: 200px 100px 0 100px;
 	background-color: #fff;
-	display: block;
-	min-height: 200px;
+ 	display: block;
+  	height: 90vh;
 }
 
 .section2 {
-	height: 200px;
-	padding: 20px;
+	padding: 0 100px 0 100px;
 	background-color: #fff;
-	display: block;
-	min-height: 200px;
+ 	display: block;
+  	height: 90vh;
 }
 
 .section3 {
-	height: 200px;
-	padding: 20px;
+	padding: 0 100px 70px 100px;
 	background-color: #fff;
+ 	display: block;
+  	height: 90vh;
+}
+
+.sideimages {
+	width: 50%;
 	display: block;
-	min-height: 200px;
-	margin-bottom: 100px;
+	padding-top: 35px;
 }
 
 .back2top {
