@@ -1,3 +1,8 @@
+/*convert all px to em*/
+
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Roboto');
 
 * {
@@ -12,7 +17,6 @@ body {
 	margin: 0 auto;
 	display: block;
 	background-color: #00AEEF;
-	color: black;
 	border: none;
 }
 
@@ -22,7 +26,7 @@ nav {
 	background-color: #fff;
 	width: 100%;
 	float: left;
-    box-shadow: 0 4px 6px 0 rgba(150, 150, 150, 0.2), 0 4px 15px 0 rgba(150, 150, 150, 0.19);
+    box-shadow: 0 4px 4px 0 rgba(150, 150, 150, 0.18), 0 4px 4px 0 rgba(150, 150, 150, 0.15);
     border: none;
 }
 
@@ -49,7 +53,7 @@ li a:hover {
 }
 
 header {
-	padding: 0 0 0 40px;
+	padding: 0 0 0 100px;
 	background-color: #00AEEF;
 	display: block;
   	width: auto;
@@ -69,7 +73,7 @@ h1 {
 	color: #fff;
 	text-transform: uppercase;
 	font-family: 'Cutive Mono', monospace;
-	font-size: 4.5em;
+	font-size: 5.5em;
 	font-weight: bold;
 	padding: 200px 0 0 0;
 	border: none;
@@ -94,6 +98,7 @@ button {
 	border: none;
 	font-weight: bolder;
 	border-radius: 3px;
+    box-shadow: 0 4px 4px 0 rgba(150, 150, 150, 0.18), 0 4px 4px 0 rgba(150, 150, 150, 0.15);
 }
 
 h3 {
@@ -124,7 +129,7 @@ p {
 	color: black;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
-	line-height: 1.75em;
+	line-height: 2em;
 	padding: 0 0 15px 0;
 	font-weight: 100em;
 }
@@ -162,7 +167,7 @@ footer {
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: block;
-  	height: 90vh;
+  	height: 100vh;
   	padding: 50px 0 0 0;
 }
 
@@ -170,22 +175,52 @@ footer {
 	padding: 130px 100px 0 100px;
 	background-color: #fff;
  	display: block;
-  	height: 30em;
+  	height: 25em;
 
 }
 
 .section2 {
-	padding: 0 100px 0 100px;
-	background-color: #fff;
+	padding: 120px 100px 10px 100px;
+	background-color: #00AEEF;
  	display: block;
-  	height: 30em;
+  	height: 25em;
+ 	background-image: url(../images/section2photo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.middleh3 {
+	color: #ffffff;
+	font-family: 'Cutive Mono', monospace;
+	font-size: 2em;
+	font-weight: light;
+	padding: 15px 0 5px 0;
+}
+
+.middlep {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+	padding: 0 0 15px 0;
+	font-weight: 100em;
+	width: 90%;
+	float: left;
+}
+
+.middlehr {
+	border: .5px #ffffff solid;
+	background-color: #ffffff;
+	height: 1px;
+	padding: 1px;
 }
 
 .section3 {
-	padding: 0 100px 40px 100px;
+	padding: 130px 100px 10px 100px;
 	background-color: #fff;
  	display: block;
-  	height: 30em;
+  	height: 25em;
 }
 
 .sideimages {
@@ -203,5 +238,7 @@ footer {
 	font-weight: bold;
 	border-bottom: 1.5px #00AEEF solid;
 	text-decoration: none;
+	background-image: url(../images/);
+	position: fixed;
 }
 
