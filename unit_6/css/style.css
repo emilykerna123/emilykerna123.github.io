@@ -175,13 +175,13 @@ footer {
     height: 0;
 }
 
-#two_column {
+.two_column {
     background-color: #fff;
     border: none;
-    padding: 20px;
+    padding: 80px 100px 80px 80px;
 }
 
-#left {
+.left {
     background-color: #fff;
     border: none;
 	padding: 20px;
@@ -189,14 +189,14 @@ footer {
     width: 55%;
 }
 
-#left2 {
+.left2 {
     border: none;
 	padding: 20px;
     float: left;
 	width: 60%;
 }
 
-#right {
+.right {
     background-color: #fff;
     border: none;
 	padding: 20px 0 0 100px;
