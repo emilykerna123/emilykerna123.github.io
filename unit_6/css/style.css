@@ -94,7 +94,7 @@ button {
 h3, .middleh3 {
 	color: #fff;
 	font-family: 'Cutive Mono', monospace;
-	font-size: 2.05em;
+	font-size: 1.75em;
 	font-weight: light;
 	background-color: #00AEEF;
     padding: 10px 20px 10px 40px;
@@ -137,15 +137,19 @@ footer {
 }
 
 .section2 {
-	background-color: #00AEEF;
 	margin: 0 auto;
 	padding: 3em 5em;
 	display: block;
+	background-color: #5AC8F2;
+/*	background-image: url(../images/section2photo.png);
+	background-size: cover;
+	background-repeat: no-repeat;*/
 }
 
 .middleh3 {
 	color: #fff;
     padding: 5px 20px 5px 40px;
+	background: rgba(255, 255, 255, 0);
 }
 
 
