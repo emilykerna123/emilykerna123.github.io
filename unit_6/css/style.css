@@ -21,7 +21,7 @@ nav {
   	padding: 1em 1.5em;
 }
 
-a, a:hover, a:active {
+a, a:hover {
     text-transform: uppercase;
 	font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -34,9 +34,6 @@ a, a:hover, a:active {
 a {
     color: #00AEEF;
     background-color: #fff;
-}
-
-a:active {
 }
 
 a:hover {
@@ -56,7 +53,7 @@ header {
 	background-color: #00AEEF;
 	background-position: right;
 	height: 90vh;
-	padding: 18em 4em;
+	padding: 15em 4em;
 }
 
 span {
@@ -69,6 +66,7 @@ h1 {
 	font-family: 'Cutive Mono', monospace;
 	font-size: 4.5em;
 	font-weight: bolder;
+    flex-wrap: wrap;
 }
 
 h2 {
@@ -76,6 +74,7 @@ h2 {
 	font-family: 'Cutive Mono', monospace;
 	font-size: 2.25em;
 	font-weight: lighter;
+    flex-wrap: wrap;
 }
 
 button {
@@ -93,19 +92,13 @@ button {
 }
 
 h3, .middleh3 {
-	color: #00AEEF;
+	color: #fff;
 	font-family: 'Cutive Mono', monospace;
-	font-size: 2.5em;
+	font-size: 2.05em;
 	font-weight: light;
-}
-
-hr, .middlehr {
-	border: none;
 	background-color: #00AEEF;
-	width: 3em;
-	float: left;
-	padding: 0.25em 0 0.25em 0;
-	margin: 1em 0 1em 0;
+    padding: 10px 20px 10px 40px;
+    flex-wrap: wrap;
 }
 
 article {
@@ -117,7 +110,8 @@ p, .middlep {
 	font-size: 1em;
 	line-height: 2em;
 	font-weight: 100em;
-	padding: 2em 0 0 0;
+   	text-align: justify;
+    padding: 15px 40px 30px 40px;
 }
 
 aside {
@@ -125,45 +119,49 @@ aside {
 }
 
 img {
-	width: 250px;
+	width: 15em;
 	height: auto;
 }
 
 footer {
-	color: #fff;
 	background-color: #00AEEF;
+	padding: 5em;
+}
+
+.feet {
+	color: #fff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
-	padding: 10em;
 	text-align: center;
 }
 
-.wrapper {
+.list {
+	line-height: 2em;
+	font-size: 1em;
 }
 
-.section1, .section2, .section3 {
+.section1, .section3 {
 	background-color: #fff;
-	padding: 9em;
+	padding: 5em;
+	display: block;
 }
 
 .section2 {
- 	background-image: url(../images/section2photo.png);
-	background-size: cover;
-	background-repeat: no-repeat;
 	background-color: #00AEEF;
 	margin: 0 auto;
+	padding: 3em 5em;
+	display: block;
 }
 
 .middleh3 {
 	color: #fff;
+    padding: 5px 20px 5px 40px;
 }
 
-h3 + .middlehr {
-	background-color: #fff;
-}
 
 .middlep {
 	color: #fff;
+    padding: 5px 40px;
 }
 
 .clearfix:after {
@@ -175,33 +173,49 @@ h3 + .middlehr {
     height: 0;
 }
 
-.two_column {
-    background-color: #fff;
-    border: none;
-    padding: 80px 100px 80px 80px;
-}
-
 .left {
     background-color: #fff;
     border: none;
-	padding: 20px;
     float: left;
-    width: 55%;
+    width: 50%;
+    display: block;
 }
 
 .left2 {
     border: none;
-	padding: 20px;
     float: left;
-	width: 60%;
+	width: 50%;
+    display: block;
 }
 
 .right {
-    background-color: #fff;
     border: none;
-	padding: 20px 0 0 100px;
     float: right;   
 	width: 40%;
 	text-align: center;
+    display: block;
 }
+
+.shadow {
+    margin: 3em 0 4em 3em;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.10), 0 1px 2px rgba(0,0,0,0.10);
+    display: block;
+    flex-wrap: wrap;
+    display: block;
+}
+
+.shadow2 {
+	padding: 3.125em;
+    display: block;
+    flex-wrap: wrap;
+}
+
+.social {
+	width: 40px;
+	height: auto;
+	float: right;
+	margin: 5px;
+}
+
+
 
