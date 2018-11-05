@@ -125,19 +125,9 @@ img {
 
 footer {
 	background-color: #00AEEF;
-	padding: 5em;
-}
-
-.feet {
-	color: #fff;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1em;
+	display: block;
+	padding: 60px;
 	text-align: center;
-}
-
-.list {
-	line-height: 2em;
-	font-size: 1em;
 }
 
 .section1, .section3 {
@@ -211,10 +201,13 @@ footer {
 }
 
 .social {
-	width: 40px;
-	height: auto;
-	float: right;
-	margin: 5px;
+	background-color: #00AEEF;
+	display: inline;
+}
+
+.img2 {
+	width: 3.75em;
+	margin: 0 .75em;
 }
 
 
