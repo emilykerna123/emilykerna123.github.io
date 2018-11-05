@@ -91,8 +91,17 @@ button {
     box-shadow: 0 0.25em 0.25em 0 rgba(150, 150, 150, 0.18), 0 0.25em 0.25em 0 rgba(150, 150, 150, 0.15);
 }
 
-h3, .middleh3 {
+h3  {
 	color: #00AEEF;
+	font-family: 'Cutive Mono', monospace;
+	font-size: 1.75em;
+	font-weight: light;
+    padding: 20px 20px 10px 40px;
+    flex-wrap: wrap;
+}
+
+.bm > h3 {
+	color: #fff;
 	font-family: 'Cutive Mono', monospace;
 	font-size: 1.75em;
 	font-weight: light;
@@ -140,17 +149,7 @@ footer {
 	padding: 3em 5em;
 	display: block;
 	background-color: #00AEEF;
-/*	background-image: url(../images/section2photo.png);
-	background-size: cover;
-	background-repeat: no-repeat;*/
 }
-
-.middleh3 {
-	color: #fff;
-    padding: 20px 20px 10px 40px;
-	background: rgba(255, 255, 255, 0);
-}
-
 
 .middlep {
 	color: #fff;
@@ -165,7 +164,7 @@ footer {
     height: 0;
 }
 
-.left {
+.left1 {
     background-color: #fff;
     border: none;
     float: left;
@@ -188,15 +187,21 @@ footer {
     display: block;
 }
 
-.shadow {
+.b1 {
     margin: 3em 0 4em 3em;
-/*    box-shadow: 0 1px 3px rgba(0,0,0,0.10), 0 1px 2px rgba(0,0,0,0.10);
-*/    display: block;
+	display: block;
     flex-wrap: wrap;
     display: block;
 }
 
-.shadow2 {
+.bm {
+    margin: 3em 0 4em 3em;
+	display: block;
+    flex-wrap: wrap;
+    display: block;
+}
+
+.b2 {
 	padding: 3.125em;
     display: block;
     flex-wrap: wrap;
