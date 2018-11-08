@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-facebook);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #00aeef;
+        fill-rule: evenodd;
+      }
+    </style>
+    <clipPath id="clip-facebook">
+      <rect width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="facebook" class="cls-1">
+    <g id="Group_37" data-name="Group 37" transform="translate(6 6)">
+      <g id="Group_36" data-name="Group 36">
+        <path id="Path_29" data-name="Path 29" class="cls-2" d="M0,19.46A19.455,19.455,0,1,1,19.45,38.92,19.457,19.457,0,0,1,0,19.46Z"/>
+      </g>
+      <path id="Path_30" data-name="Path 30" class="cls-3" d="M21.42,14.39c.48-.02.96,0,1.44,0h.2V11.9c-.26-.03-.52-.06-.79-.08-.49-.02-.98-.05-1.47-.03a3.6,3.6,0,0,0-2.08.64,3.119,3.119,0,0,0-1.25,2.08,7.6,7.6,0,0,0-.09,1.07c-.01.56,0,1.12,0,1.68v.21H15v2.78h2.37v6.99h2.89V20.26h2.36c.12-.93.24-1.84.36-2.79H20.24s.01-1.38.02-1.98C20.28,14.66,20.76,14.41,21.42,14.39Z"/>
+    </g>
+  </g>
+</svg>
