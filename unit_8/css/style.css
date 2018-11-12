@@ -1524,7 +1524,7 @@ section {
 
 
 
-@media all and (max-width: 500px) and (min-width: 250px) { 
+@media all and (max-width: 500px) and (min-width: 300px) { 
 	body {
 		font-family: Roboto, sans-serif;
 		size: 1em; 
@@ -1564,7 +1564,7 @@ section {
 
 	h1 {
 		text-align: center;
-		font-size: 3.75em;
+		font-size: 2.5em;
 		font-family: "Cutive Mono", monospace;
 		color: #fff;
 		font-weight: 600;
@@ -1579,7 +1579,7 @@ section {
 
 	h2 {
 		text-align: center;
-		font-size: 1.5em;
+		font-size: 1.25em;
 		font-family: "Cutive Mono", monospace;
 		color: #fff;
 	}
@@ -1614,6 +1614,7 @@ section {
 		margin: auto;
 		padding: 8em 0;
 		text-align: center;
+		display: inline-block;
 	}
 
 	img {
@@ -1688,7 +1689,7 @@ section {
 		max-height: 3em;
 		max-width: 3em;
 		height: 100%;
-		margin: 3em;
+		margin: 2em;
 	} 
 }
 
@@ -1699,7 +1700,7 @@ section {
 
 
 
-@media all and (max-width: 250px) and (min-width: 100px) { 
+@media all and (max-width: 300px) and (min-width: 100px) { 
 	body {
 		font-family: Roboto, sans-serif;
 		size: 1em; 
@@ -1717,7 +1718,7 @@ section {
 	}
 
 	nav a:link, a:visited, a:hover, a:active  {
-		font-size: 1em;
+		font-size: .5em;
 		text-transform: uppercase;
 		letter-spacing: .05em;
 		text-decoration: none;
@@ -1740,7 +1741,7 @@ section {
 
 	h1 {
 		text-align: center;
-		font-size: 3.75em;
+		font-size: 2em;
 		font-family: "Cutive Mono", monospace;
 		color: #fff;
 		font-weight: 600;
@@ -1755,7 +1756,7 @@ section {
 
 	h2 {
 		text-align: center;
-		font-size: 1.5em;
+		font-size: 1.25em;
 		font-family: "Cutive Mono", monospace;
 		color: #fff;
 	}
@@ -1834,8 +1835,8 @@ section {
 	.column2 img {
 		max-height: 12em;
 		width: 100%;
-		margin: 4em auto;
-		padding: 5em;
+		margin: 2em auto;
+		padding: 3em;
 	}
 
 	.wrapper {
@@ -1862,9 +1863,9 @@ section {
 	}
 
 	.footer-icon img {
-		max-height: 3em;
-		max-width: 3em;
+		max-height: 2em;
+		max-width: 2em;
 		height: 100%;
-		margin: 3em;
+		margin: 1em;
 	} 
 }
