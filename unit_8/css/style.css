@@ -1722,7 +1722,7 @@ section {
 		text-transform: uppercase;
 		letter-spacing: .05em;
 		text-decoration: none;
-		margin: 1.25em;
+		margin: 1.25em 0;
 		color: #0AAEEF;
 		font-weight: bolder;
 		font-family: "Cutive Mono", monospace;
@@ -1791,6 +1791,7 @@ section {
 		margin: auto;
 		padding: 8em 0;
 		text-align: center;
+		margin: 0 auto;
 	}
 
 	img {
@@ -1863,9 +1864,9 @@ section {
 	}
 
 	.footer-icon img {
-		max-height: 2em;
-		max-width: 2em;
+		max-height: 1.5em;
+		max-width: 1.5em;
 		height: 100%;
-		margin: .5em;
+		margin: .25em;
 	} 
 }
