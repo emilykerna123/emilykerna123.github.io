@@ -1392,7 +1392,7 @@ section {
 
 	h1 {
 		text-align: center;
-		font-size: 3.75em;
+		font-size: 4.5em;
 		font-family: "Cutive Mono", monospace;
 		color: #fff;
 		font-weight: 600;
@@ -1407,7 +1407,7 @@ section {
 
 	h2 {
 		text-align: center;
-		font-size: 1.5em;
+		font-size: 2.5em;
 		font-family: "Cutive Mono", monospace;
 		color: #fff;
 	}
@@ -1564,7 +1564,7 @@ section {
 
 	h1 {
 		text-align: center;
-		font-size: 2em;
+		font-size: 3em;
 		font-family: "Cutive Mono", monospace;
 		color: #fff;
 		font-weight: 600;
@@ -1660,7 +1660,8 @@ section {
 		max-height: 12em;
 		width: 100%;
 		margin: 0 auto;
-	}
+		padding: 2em;
+	}	
 
 	.wrapper {
 		background-color: #fff;
