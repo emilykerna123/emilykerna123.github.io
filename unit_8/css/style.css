@@ -207,7 +207,7 @@ section {
 
 
 
-@media all and (max-width: 1920px) {
+@media all and (max-width: 1920px) and (min-width: 1620px) {
 	body {
 		font-family: Roboto, sans-serif;
 		size: 2em; /*16px = 1em*/
@@ -388,211 +388,6 @@ section {
 		margin: 3em;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-@media all and (max-width: 1690px) {
-	body {
-		font-family: Roboto, sans-serif;
-		size: 1em; /*16px = 1em*/
-		color: #000;
-		width: 100%;
-	}
-
-	nav {
-		background-color: #fff;
-	    box-shadow: 0 0.25em 0.25em 0 rgba(150, 150, 150, 0.18), 0 0.25em 0.25em 0 rgba(150, 150, 150, 0.15);
-	  	position: fixed;
-	  	width: 100%;
-	  	padding: 1.35em 1.5em;
-	}
-
-	nav a:link, a:visited, a:hover, a:active  {
-		font-size: 1em;
-		text-transform: uppercase;
-		letter-spacing: .05em;
-		text-decoration: none;
-		margin: 1.25em;
-		color: #0AAEEF;
-		font-weight: bolder;
-		font-family: "Cutive Mono", monospace;
-	}
-
-	nav a:hover {
-		color: #0AAEEF;
-		opacity: 0.5;
-		border-bottom: .15em solid #fff;
-		padding-bottom: .30em;
-	}
-
-	header {
-		background-color: #0AAEEF;
-	}
-
-	h1 {
-		text-align: left;
-		font-size: 7em;
-		font-family: "Cutive Mono", monospace;
-		color: #fff;
-		font-weight: 600;
-	    flex-wrap: wrap;
-	}
-
-	span {
-		font-weight: lighter;
-		font-family: "Cutive Mono", monospace;
-	}
-
-	h2 {
-		text-align: left;
-		font-size: 3.5em;
-		font-family: "Cutive Mono", monospace;
-		color: #fff;
-	}
-
-	button {
-		background-color: #fff;
-		margin-top: .75em;
-		color: #0AAEEF;
-		font-family: 'Roboto', sans-serif;
-		text-transform: uppercase;
-		font-size: 1em;
-		border: none;	
-		padding: 1em;
-		font-weight: bolder;
-		border-radius: 0.25em;
-	    box-shadow: 0 0.25em 0.25em 0 rgba(150, 150, 150, 0.18), 0 0.25em 0.25em 0 rgba(150, 150, 150, 0.15);
-	}
-
-	h3, .secondh3 {
-		font-size: 3em;
-		font-family: "Cutive Mono", monospace;
-		color: #0AAEEF;
-	}
-
-	p {
-		font-family: 'Roboto', sans-serif;
-		font-size: 1.25em;
-		line-height: 2em;
-		font-weight: 100em;
-	   	text-align: justify;
-	   	width: 80%;
-	}
-
-	footer {
-		background-color:#0AAEEF;
-		width: 100%;	
-		background-color:#0AAEEF;
-		display: table;
-		margin: auto;
-		padding: 8em 0;
-		text-align: center;
-	}
-
-	img {
-		margin: 0 auto;
-	}
-
-	section {
-		background-color: #fff;
-	}
-
-	.headercolumns {
-		background: url(..//images/background.svg);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		background-color: #0AADEF;
-		width: 100%;
-		padding: 16em 4em;
-		margin: 0;
-		flex-wrap: wrap;
-	}
-
-	.column1 {
-		margin: 0 auto;
-		width: 60%;
-		float: left;
-		display: block;
-	}
-
-	.columnmid {
-		margin: 0 auto;
-		width: 60%;
-		float: left;
-		display: block;
-		color: #fff;
-	}
-
-	.column2 {
-		margin: 0 auto;
-		float: right;
-		display: block;
-		float: right;
-	}
-
-	.column2 img {
-		max-height: 12em;
-		width: 100%;
-		margin: 0 6em;
-		float: right;
-	}
-
-	.wrapper {
-		width: 100%;
-		margin: 0 auto;
-		background-color: #fff;
-		padding: 15em;
-	}
-
-	.wrapper2 {
-		width: 100%;
-		background-color: #0AAEEF;
-		margin: 0 auto;
-		padding: 15em;
-	}
-
-	.clearfix:after {
-	    visibility: hidden;
-	    display: block;
-	    font-size: 0;
-	    content: " ";
-	    clear: both;
-	    height: 0;
-	}
-
-	.secondh3 {
-		color: #fff;
-	}
-
-	.footer-icon img {
-		max-height: 5em;
-		max-width: 5em;
-		height: 100%;
-		margin: 3em;
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media all and (max-width: 1620px) and (min-width: 1260px) {
@@ -1556,7 +1351,7 @@ section {
 
 
 
-@media all and (max-width: 750px) and (min-width: 250px) { 
+@media all and (max-width: 750px) and (min-width: 100px) { 
 	body {
 		font-family: Roboto, sans-serif;
 		size: 1em; 
