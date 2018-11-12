@@ -1564,7 +1564,7 @@ section {
 
 	h1 {
 		text-align: center;
-		font-size: 2.5em;
+		font-size: 2em;
 		font-family: "Cutive Mono", monospace;
 		color: #fff;
 		font-weight: 600;
@@ -1766,7 +1766,7 @@ section {
 	}
 
 	h3, .secondh3 {
-		font-size: 1.5em;
+		font-size: 1.25em;
 		font-family: "Cutive Mono", monospace;
 		color: #0AAEEF;
 		text-align: center;
@@ -1866,6 +1866,6 @@ section {
 		max-height: 2em;
 		max-width: 2em;
 		height: 100%;
-		margin: 1em;
+		margin: .5em;
 	} 
 }
