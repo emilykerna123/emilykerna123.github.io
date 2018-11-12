@@ -1351,7 +1351,7 @@ section {
 
 
 
-@media all and (max-width: 750px) and (min-width: 500px) { 
+@media all and (max-width: 750px) and (min-width: 600px) { 
 	body {
 		font-family: Roboto, sans-serif;
 		size: 1em; 
@@ -1493,12 +1493,12 @@ section {
 
 	.wrapper {
 		background-color: #fff;
-		padding: 5em;
+		padding: 5em 2em;
 	}
 
 	.wrapper2 {
 		background-color: #0AAEEF;
-		padding: 5em;
+		padding: 5em 2em;
 	}
 
 	.clearfix:after {
@@ -1524,7 +1524,7 @@ section {
 
 
 
-@media all and (max-width: 500px) and (min-width: 300px) { 
+@media all and (max-width: 600px) and (min-width: 400px) { 
 	body {
 		font-family: Roboto, sans-serif;
 		size: 1em; 
@@ -1700,7 +1700,7 @@ section {
 
 
 
-@media all and (max-width: 300px) and (min-width: 100px) { 
+@media all and (max-width: 400px) and (min-width: 100px) { 
 	body {
 		font-family: Roboto, sans-serif;
 		size: 1em; 
