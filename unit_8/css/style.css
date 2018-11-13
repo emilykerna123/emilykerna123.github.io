@@ -1271,7 +1271,7 @@ section {
 	}
 
 	.headercolumns {
-		background: url(..//images/blue.png);
+		background: none;
 		background-repeat: no-repeat;
 		background-position: right;
 		background-color: #0AADEF;
@@ -1455,7 +1455,7 @@ section {
 	}
 
 	.headercolumns {
-		background: url(..//images/blue.png);
+		background: none;
 		background-repeat: no-repeat;
 		background-position: right;
 		background-color: #0AADEF;
@@ -1525,7 +1525,7 @@ section {
 
 
 
-@media all and (max-width: 600px) and (min-width: 400px) { 
+@media all and (max-width: 600px) and (min-width: 450px) { 
 	body {
 		font-family: Roboto, sans-serif;
 		size: 1em; 
@@ -1702,7 +1702,7 @@ section {
 
 
 
-@media all and (max-width: 400px) and (min-width: 100px) { 
+@media all and (max-width: 450px) and (min-width: 100px) { 
 	body {
 		font-family: Roboto, sans-serif;
 		size: 1em; 
