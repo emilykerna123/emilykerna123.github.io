@@ -1486,10 +1486,10 @@ section {
 	}
 
 	.column2 img {
-		max-height: 12em;
+		max-height: 10em;
 		width: 100%;
 		margin: 0 auto;
-		padding: 3em;
+		padding: 4em;
 	}
 
 	.wrapper {
