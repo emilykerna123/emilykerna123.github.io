@@ -86,9 +86,9 @@ p {
 	font-family: 'Roboto', sans-serif;
 	font-size: .95em;
 	line-height: 2em;
-	font-weight: 100em;
-   	text-align: justify;
-   	width: 80%;
+	text-align: justify;
+	text-align-last: left;
+   	width: 100%;
    	padding-top: 1em;
 }
 
@@ -291,9 +291,9 @@ section {
 		font-family: 'Roboto', sans-serif;
 		font-size: 1em;
 		line-height: 2em;
-		font-weight: 100em;
 	   	text-align: justify;
-	   	width: 80%;
+	   	text-align-last: left;
+	   	width: 100%;
 	   	padding-top: 1em;
 	}
 
@@ -475,9 +475,9 @@ section {
 		font-family: 'Roboto', sans-serif;
 		font-size: 1em;
 		line-height: 2em;
-		font-weight: 100em;
 	   	text-align: justify;
-	   	width: 80%;
+	   	text-align-last: left;
+	   	width: 100%;
 	   	padding-top: 1em;
 	}
 
@@ -669,9 +669,9 @@ section {
 		font-family: 'Roboto', sans-serif;
 		font-size: 1em;
 		line-height: 2em;
-		font-weight: 100em;
 	   	text-align: justify;
-	   	width: 80%;
+	   	text-align-last: left;
+	   	width: 100%;
 	}
 
 	footer {
@@ -861,9 +861,9 @@ section {
 		font-family: 'Roboto', sans-serif;
 		font-size: 1em;
 		line-height: 2em;
-		font-weight: 100em;
 	   	text-align: justify;
-	   	width: 80%;
+	   	text-align-last: left;
+	   	width: 100%;
 	   	padding: 3em 0;
 	}
 
@@ -1057,8 +1057,8 @@ section {
 		font-family: 'Roboto', sans-serif;
 		font-size: .9em;
 		line-height: 2.25em;
-		font-weight: 100em;
-	   	text-align: center;
+	   	text-align: justify;
+	   	text-align-last: center;
 	   	width: 100%;
 	   	padding: 5em;
 	}
@@ -1239,8 +1239,8 @@ section {
 		font-family: 'Roboto', sans-serif;
 		font-size: .9em;
 		line-height: 2em;
-		font-weight: 100em;
-	   	text-align: center;
+	   	text-align: justify;
+	   	text-align-last: center;
 	   	width: 100%;
 	   	padding: 3em 5em;
 	}
@@ -1423,9 +1423,9 @@ section {
 		font-family: 'Roboto', sans-serif;
 		font-size: .85em;
 		line-height: 2em;
-		font-weight: 100em;
-	   	text-align: center;
-	   	width: 70%;
+	   	text-align: justify;
+	   	text-align-last: center;
+	   	width: 100%;
 	   	padding: 1em 5em;
 	   	margin: 0 auto;
 	}
@@ -1616,9 +1616,9 @@ section {
 		font-family: 'Roboto', sans-serif;
 		font-size: .80em;
 		line-height: 2em;
-		font-weight: 100em;
-	   	text-align: center;
-	   	width: 80%;
+	   	text-align: justify;
+	   	text-align-last: center;
+	   	width: 100%;
 	   	margin: 0 auto;
 	   	padding: 1em 5em;
 	}
@@ -1812,9 +1812,9 @@ section {
 		font-family: 'Roboto', sans-serif;
 		font-size: .75em;
 		line-height: 2em;
-		font-weight: 100em;
-	   	text-align: center;
-		width: 80%;
+	   	text-align: justify;
+	   	text-align-last: center;
+		width: 100%;
 	   	margin: 0 auto;
 	   	padding: 1em 5em;
 	}
